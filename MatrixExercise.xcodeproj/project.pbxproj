@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C907CAD605CDE6B99CD3918D /* Pods_MatrixExercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E7F98366D1995A818D98C1 /* Pods_MatrixExercise.framework */; };
 		EA9856AA27907B36003DA564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9856A927907B36003DA564 /* AppDelegate.swift */; };
 		EA9856AC27907B36003DA564 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9856AB27907B36003DA564 /* SceneDelegate.swift */; };
-		EA9856AE27907B36003DA564 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9856AD27907B36003DA564 /* ViewController.swift */; };
+		EA9856AE27907B36003DA564 /* FruitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9856AD27907B36003DA564 /* FruitsViewController.swift */; };
 		EA9856B127907B36003DA564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9856AF27907B36003DA564 /* Main.storyboard */; };
 		EA9856B327907B48003DA564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA9856B227907B48003DA564 /* Assets.xcassets */; };
 		EA9856B627907B48003DA564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9856B427907B48003DA564 /* LaunchScreen.storyboard */; };
+		EA9856C027907B92003DA564 /* FruitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9856BF27907B92003DA564 /* FruitAPI.swift */; };
+		EA9856C227907C12003DA564 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9856C127907C12003DA564 /* Fruit.swift */; };
+		EA9856C427907CE6003DA564 /* CustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9856C327907CE6003DA564 /* CustomErrors.swift */; };
+		EAF1C551279083800018ADF9 /* FruitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1C54F279083800018ADF9 /* FruitTableViewCell.swift */; };
+		EAF1C552279083800018ADF9 /* FruitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAF1C550279083800018ADF9 /* FruitTableViewCell.xib */; };
+		EAF1C55627908E5E0018ADF9 /* FruitDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1C55527908E5E0018ADF9 /* FruitDetailsViewController.swift */; };
+		EAF1C5582790916D0018ADF9 /* FruitDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1C5572790916D0018ADF9 /* FruitDetailsViewModel.swift */; };
+		EAF1C55B279093300018ADF9 /* UIImageView + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1C55A279093300018ADF9 /* UIImageView + extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65E7F98366D1995A818D98C1 /* Pods_MatrixExercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MatrixExercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6817F9E364C23129C4338DB3 /* Pods-MatrixExercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatrixExercise.release.xcconfig"; path = "Target Support Files/Pods-MatrixExercise/Pods-MatrixExercise.release.xcconfig"; sourceTree = "<group>"; };
+		81E2910EA8F6D1B66FAAF154 /* Pods-MatrixExercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatrixExercise.debug.xcconfig"; path = "Target Support Files/Pods-MatrixExercise/Pods-MatrixExercise.debug.xcconfig"; sourceTree = "<group>"; };
 		EA9856A627907B36003DA564 /* MatrixExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatrixExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA9856A927907B36003DA564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA9856AB27907B36003DA564 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EA9856AD27907B36003DA564 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA9856AD27907B36003DA564 /* FruitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsViewController.swift; sourceTree = "<group>"; };
 		EA9856B027907B36003DA564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA9856B227907B48003DA564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA9856B527907B48003DA564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA9856B727907B48003DA564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9856BF27907B92003DA564 /* FruitAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitAPI.swift; sourceTree = "<group>"; };
+		EA9856C127907C12003DA564 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		EA9856C327907CE6003DA564 /* CustomErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrors.swift; sourceTree = "<group>"; };
+		EAF1C54F279083800018ADF9 /* FruitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitTableViewCell.swift; sourceTree = "<group>"; };
+		EAF1C550279083800018ADF9 /* FruitTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FruitTableViewCell.xib; sourceTree = "<group>"; };
+		EAF1C55527908E5E0018ADF9 /* FruitDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailsViewController.swift; sourceTree = "<group>"; };
+		EAF1C5572790916D0018ADF9 /* FruitDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailsViewModel.swift; sourceTree = "<group>"; };
+		EAF1C55A279093300018ADF9 /* UIImageView + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C907CAD605CDE6B99CD3918D /* Pods_MatrixExercise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BA95ACDBFF49216C03E279F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65E7F98366D1995A818D98C1 /* Pods_MatrixExercise.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88D848BE01C127CA862D64F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81E2910EA8F6D1B66FAAF154 /* Pods-MatrixExercise.debug.xcconfig */,
+				6817F9E364C23129C4338DB3 /* Pods-MatrixExercise.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EA98569D27907B36003DA564 = {
 			isa = PBXGroup;
 			children = (
 				EA9856A827907B36003DA564 /* MatrixExercise */,
 				EA9856A727907B36003DA564 /* Products */,
+				88D848BE01C127CA862D64F3 /* Pods */,
+				1BA95ACDBFF49216C03E279F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +96,79 @@
 		EA9856A827907B36003DA564 /* MatrixExercise */ = {
 			isa = PBXGroup;
 			children = (
+				EAF1C54E279082EB0018ADF9 /* Controllers */,
+				EAF1C54D279082E00018ADF9 /* Views */,
+				EA9856BD27907B6B003DA564 /* Models */,
 				EA9856A927907B36003DA564 /* AppDelegate.swift */,
 				EA9856AB27907B36003DA564 /* SceneDelegate.swift */,
-				EA9856AD27907B36003DA564 /* ViewController.swift */,
-				EA9856AF27907B36003DA564 /* Main.storyboard */,
 				EA9856B227907B48003DA564 /* Assets.xcassets */,
 				EA9856B427907B48003DA564 /* LaunchScreen.storyboard */,
 				EA9856B727907B48003DA564 /* Info.plist */,
 			);
 			path = MatrixExercise;
+			sourceTree = "<group>";
+		};
+		EA9856BD27907B6B003DA564 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EAF1C559279093100018ADF9 /* Extension */,
+				EA9856BE27907B7A003DA564 /* API */,
+				EA9856C127907C12003DA564 /* Fruit.swift */,
+				EA9856C327907CE6003DA564 /* CustomErrors.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EA9856BE27907B7A003DA564 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				EA9856BF27907B92003DA564 /* FruitAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		EAF1C54D279082E00018ADF9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA9856AF27907B36003DA564 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EAF1C54E279082EB0018ADF9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EAF1C55427908DF20018ADF9 /* FruitDetails */,
+				EAF1C55327908DDA0018ADF9 /* Fruits */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EAF1C55327908DDA0018ADF9 /* Fruits */ = {
+			isa = PBXGroup;
+			children = (
+				EA9856AD27907B36003DA564 /* FruitsViewController.swift */,
+				EAF1C54F279083800018ADF9 /* FruitTableViewCell.swift */,
+				EAF1C550279083800018ADF9 /* FruitTableViewCell.xib */,
+			);
+			path = Fruits;
+			sourceTree = "<group>";
+		};
+		EAF1C55427908DF20018ADF9 /* FruitDetails */ = {
+			isa = PBXGroup;
+			children = (
+				EAF1C55527908E5E0018ADF9 /* FruitDetailsViewController.swift */,
+				EAF1C5572790916D0018ADF9 /* FruitDetailsViewModel.swift */,
+			);
+			path = FruitDetails;
+			sourceTree = "<group>";
+		};
+		EAF1C559279093100018ADF9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EAF1C55A279093300018ADF9 /* UIImageView + extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA9856BA27907B48003DA564 /* Build configuration list for PBXNativeTarget "MatrixExercise" */;
 			buildPhases = (
+				DE096D0404BE7706E629B724 /* [CP] Check Pods Manifest.lock */,
 				EA9856A227907B36003DA564 /* Sources */,
 				EA9856A327907B36003DA564 /* Frameworks */,
 				EA9856A427907B36003DA564 /* Resources */,
+				5D2B777A83C00C2DF014B1FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF1C552279083800018ADF9 /* FruitTableViewCell.xib in Resources */,
 				EA9856B627907B48003DA564 /* LaunchScreen.storyboard in Resources */,
 				EA9856B327907B48003DA564 /* Assets.xcassets in Resources */,
 				EA9856B127907B36003DA564 /* Main.storyboard in Resources */,
@@ -133,14 +240,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D2B777A83C00C2DF014B1FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MatrixExercise/Pods-MatrixExercise-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MatrixExercise/Pods-MatrixExercise-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MatrixExercise/Pods-MatrixExercise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE096D0404BE7706E629B724 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MatrixExercise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EA9856A227907B36003DA564 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA9856AE27907B36003DA564 /* ViewController.swift in Sources */,
+				EA9856C227907C12003DA564 /* Fruit.swift in Sources */,
+				EA9856C427907CE6003DA564 /* CustomErrors.swift in Sources */,
+				EAF1C551279083800018ADF9 /* FruitTableViewCell.swift in Sources */,
+				EA9856AE27907B36003DA564 /* FruitsViewController.swift in Sources */,
+				EAF1C55627908E5E0018ADF9 /* FruitDetailsViewController.swift in Sources */,
+				EA9856C027907B92003DA564 /* FruitAPI.swift in Sources */,
 				EA9856AA27907B36003DA564 /* AppDelegate.swift in Sources */,
 				EA9856AC27907B36003DA564 /* SceneDelegate.swift in Sources */,
+				EAF1C55B279093300018ADF9 /* UIImageView + extension.swift in Sources */,
+				EAF1C5582790916D0018ADF9 /* FruitDetailsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +440,7 @@
 		};
 		EA9856BB27907B48003DA564 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E2910EA8F6D1B66FAAF154 /* Pods-MatrixExercise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,6 +454,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,12 +464,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		EA9856BC27907B48003DA564 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6817F9E364C23129C4338DB3 /* Pods-MatrixExercise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,6 +484,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +494,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
