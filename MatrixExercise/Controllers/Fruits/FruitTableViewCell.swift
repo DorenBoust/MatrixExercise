@@ -13,6 +13,7 @@ class FruitTableViewCell: UITableViewCell {
     //MARK: - outlets
     @IBOutlet weak var fruitNameLabel: UILabel!
     @IBOutlet weak var fruitImageView: UIImageView!
+    @IBOutlet weak var fruitUIView: UIViewCustom!
     
     //MARK: - properties
     static let cellID = "FruitTableViewCell"
@@ -33,6 +34,9 @@ class FruitTableViewCell: UITableViewCell {
     public func setCell(fruitModel: Fruit){
         self.fruitNameLabel.text = fruitModel.name
         self.fruitImageView.sd_setImage(with: URL(string: fruitModel.image), placeholderImage: UIImage(named: "itemPlaceHolder.png"))
+        
+        self.fruitImageView.roundCorners([.topLeft, .bottomLeft], radius: self.fruitUIView.cornerRadius)
+        
         
         
         

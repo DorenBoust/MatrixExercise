@@ -53,6 +53,10 @@ extension FruitsViewController: UITableViewDelegate, UITableViewDataSource {
         
         if let fruit = self.fruits?.fruits[indexPath.row] {
             cell.setCell(fruitModel: fruit)
+            
+            //fix cell size
+            tableView.rowHeight = 100
+            
             return cell
         }
         

@@ -22,6 +22,7 @@
 		EAF1C55627908E5E0018ADF9 /* FruitDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1C55527908E5E0018ADF9 /* FruitDetailsViewController.swift */; };
 		EAF1C5582790916D0018ADF9 /* FruitDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1C5572790916D0018ADF9 /* FruitDetailsViewModel.swift */; };
 		EAF1C55B279093300018ADF9 /* UIImageView + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1C55A279093300018ADF9 /* UIImageView + extension.swift */; };
+		EAF1C55E2790DBDE0018ADF9 /* UIViewCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1C55D2790DBDE0018ADF9 /* UIViewCustom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		EAF1C55527908E5E0018ADF9 /* FruitDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailsViewController.swift; sourceTree = "<group>"; };
 		EAF1C5572790916D0018ADF9 /* FruitDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailsViewModel.swift; sourceTree = "<group>"; };
 		EAF1C55A279093300018ADF9 /* UIImageView + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + extension.swift"; sourceTree = "<group>"; };
+		EAF1C55D2790DBDE0018ADF9 /* UIViewCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewCustom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		EA9856BD27907B6B003DA564 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EAF1C55C2790DBBD0018ADF9 /* CustomOutlets */,
 				EAF1C559279093100018ADF9 /* Extension */,
 				EA9856BE27907B7A003DA564 /* API */,
 				EA9856C127907C12003DA564 /* Fruit.swift */,
@@ -130,6 +133,7 @@
 		EAF1C54D279082E00018ADF9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EAF1C550279083800018ADF9 /* FruitTableViewCell.xib */,
 				EA9856AF27907B36003DA564 /* Main.storyboard */,
 			);
 			path = Views;
@@ -149,7 +153,6 @@
 			children = (
 				EA9856AD27907B36003DA564 /* FruitsViewController.swift */,
 				EAF1C54F279083800018ADF9 /* FruitTableViewCell.swift */,
-				EAF1C550279083800018ADF9 /* FruitTableViewCell.xib */,
 			);
 			path = Fruits;
 			sourceTree = "<group>";
@@ -169,6 +172,14 @@
 				EAF1C55A279093300018ADF9 /* UIImageView + extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		EAF1C55C2790DBBD0018ADF9 /* CustomOutlets */ = {
+			isa = PBXGroup;
+			children = (
+				EAF1C55D2790DBDE0018ADF9 /* UIViewCustom.swift */,
+			);
+			path = CustomOutlets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +308,7 @@
 				EA9856AC27907B36003DA564 /* SceneDelegate.swift in Sources */,
 				EAF1C55B279093300018ADF9 /* UIImageView + extension.swift in Sources */,
 				EAF1C5582790916D0018ADF9 /* FruitDetailsViewModel.swift in Sources */,
+				EAF1C55E2790DBDE0018ADF9 /* UIViewCustom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
