@@ -23,6 +23,7 @@
 		EAF1C5582790916D0018ADF9 /* FruitDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1C5572790916D0018ADF9 /* FruitDetailsViewModel.swift */; };
 		EAF1C55B279093300018ADF9 /* UIImageView + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1C55A279093300018ADF9 /* UIImageView + extension.swift */; };
 		EAF1C55E2790DBDE0018ADF9 /* UIViewCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1C55D2790DBDE0018ADF9 /* UIViewCustom.swift */; };
+		EAF1C5602790E70E0018ADF9 /* UIView + extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1C55F2790E70E0018ADF9 /* UIView + extenstion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		EAF1C5572790916D0018ADF9 /* FruitDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailsViewModel.swift; sourceTree = "<group>"; };
 		EAF1C55A279093300018ADF9 /* UIImageView + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + extension.swift"; sourceTree = "<group>"; };
 		EAF1C55D2790DBDE0018ADF9 /* UIViewCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewCustom.swift; sourceTree = "<group>"; };
+		EAF1C55F2790E70E0018ADF9 /* UIView + extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + extenstion.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				EAF1C55A279093300018ADF9 /* UIImageView + extension.swift */,
+				EAF1C55F2790E70E0018ADF9 /* UIView + extenstion.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				EAF1C551279083800018ADF9 /* FruitTableViewCell.swift in Sources */,
 				EA9856AE27907B36003DA564 /* FruitsViewController.swift in Sources */,
 				EAF1C55627908E5E0018ADF9 /* FruitDetailsViewController.swift in Sources */,
+				EAF1C5602790E70E0018ADF9 /* UIView + extenstion.swift in Sources */,
 				EA9856C027907B92003DA564 /* FruitAPI.swift in Sources */,
 				EA9856AA27907B36003DA564 /* AppDelegate.swift in Sources */,
 				EA9856AC27907B36003DA564 /* SceneDelegate.swift in Sources */,
