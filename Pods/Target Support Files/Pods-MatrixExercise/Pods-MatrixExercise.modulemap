@@ -1,0 +1,6 @@
+framework module Pods_MatrixExercise {
+  umbrella header "Pods-MatrixExercise-umbrella.h"
+
+  export *
+  module * { export * }
+}
